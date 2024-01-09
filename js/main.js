@@ -250,9 +250,9 @@ function resetAll() {
   }
 
   // restart help
-    help[0].setAttribute("src", "/img/AiLaTrieuPhu/help_50_used.jpg");
-    help[1].setAttribute("src", "/img/AiLaTrieuPhu/help_audience_used.jpg");
-    help[2].setAttribute("src", "/img/AiLaTrieuPhu/help_audience_used.jpg");
+    help[0].setAttribute("src", "/image/help_50.jpg");
+    help[1].setAttribute("src", "/image/help_audience.jpg");
+    help[2].setAttribute("src", "/image/help_audience.jpg");
   help.forEach((helper) => (helper.className = ""));
 }
 
@@ -376,13 +376,13 @@ help.forEach((helper, i) => {
       switch (i) {
         case 0:
           clearTwoAnswer();
-              helper.setAttribute("src", "/img/AiLaTrieuPhu/help_50_used.jpg");
+              helper.setAttribute("src", "/image/help_50_used.jpg");
           break;
         case 1:
-              helper.setAttribute("src", "/img/AiLaTrieuPhu/help_audience_used.jpg");
+              helper.setAttribute("src", "/image/help_audience_used.jpg");
           break;
         case 2:
-              helper.setAttribute("src", "/img/AiLaTrieuPhu/help_audience_used.jpg");
+              helper.setAttribute("src", "/image/help_audience_used.jpg");
           break;
       }
       helper.className = "";
